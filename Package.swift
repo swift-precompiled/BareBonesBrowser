@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "BareBonesBrowserKit",
-            targets: ["BareBonesBrowserKit_PrecompiledProduct"]
+            targets: ["BareBonesBrowserKit"]
         )
     ],
     targets: [
@@ -20,12 +20,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "BareBonesBrowserKit",
-            url: "https://github.com/swift-precompiled/BareBonesBrowser/releases/download/0.1.0/BareBonesBrowserKit-218fb95f3573be8d43aa6a82d05192085e211f747998b88c4e4696c38b91ce73.xcframework.zip",
-            checksum: "218fb95f3573be8d43aa6a82d05192085e211f747998b88c4e4696c38b91ce73"
-        ),
-        .target(
-            name: "BareBonesBrowserKit_PrecompiledProduct",
-            dependencies: ["BareBonesBrowserKit_Aggregation"]
+            url: "https://github.com/swift-precompiled/BareBonesBrowser/releases/download/0.1.0/BareBonesBrowserKit-a668eb7762700227ee525a8a50c533b13f8ba317f5bb1df3c80acf3aeddb6244.xcframework.zip",
+            checksum: "a668eb7762700227ee525a8a50c533b13f8ba317f5bb1df3c80acf3aeddb6244"
         )
     ]
 )
